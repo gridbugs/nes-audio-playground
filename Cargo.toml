@@ -1,0 +1,11 @@
+[package]
+name = "nes-audio-playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mos6502_assembler = "0.3"
+mos6502_model = "0.2"
+ines = "0.3"
+hound = "3.5"
+meap = "0.5"
