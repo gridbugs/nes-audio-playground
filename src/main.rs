@@ -1037,6 +1037,5 @@ fn main() {
     let mut encoded = Vec::new();
     ines.encode(&mut encoded);
     let mut file = std::fs::File::create(output_path).unwrap();
-    file.write_all(&encoded)
-        .expect("Failed to write encoded rom to stdout");
+    file.write_all(&encoded).expect("Failed to write ROM file");
 }
